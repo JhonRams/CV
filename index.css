@@ -1,0 +1,224 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/04/2020, 03:31:16 PM
+    Author     : JR
+*/
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri light;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.2em;
+    color:#484848; 
+}
+.color-a{
+    color:#0099cc;
+}
+.color-b{
+    color: #007687;
+}
+.f4em{
+    font-size: 4em;
+}
+.f3em{
+    font-size: 3em;
+}
+.f2em{
+    font-size: 2em;
+}
+.f1-5em{
+    font-size: 1.5em;
+}
+.imagen{
+    max-width: 100%;
+}
+.adaptable,.plantilla{
+    text-align: center;
+    padding: 2%;
+}
+.txaljus{
+    text-align: justify;
+}
+.txalcen{
+    text-align: center;
+}
+.consola{
+    font-family:Courier New;
+    font-size: 1.2em;
+    background: #141414;
+    padding: 2%;
+}
+.botones{
+    text-align: center;
+}
+.header{
+    width: 20em;
+    display: inline-block;
+    height: 100%;
+    position: fixed;
+    max-width: 100%;
+
+}
+.seccion{
+    padding-left: 20em;
+}
+.nav{
+    max-width: 100%;
+
+}
+
+#animacion{
+    transition:1S;
+    background: #0099cc;
+    color: white;
+    padding: 5%;
+}
+#animacion>div{
+padding: 15% 0 10%;
+}
+
+.contacto, .correo{
+    width: 16em;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 1.2em;
+    
+}
+#Contacto,#sobremi,#Trabajos,#Experiencia,#animacion{
+    padding: 5%;
+}
+.web{
+   text-align: center;
+}
+.web>div{
+    width: 10em;
+    max-height: 90%;
+    display: inline-block;
+    padding: 4%;
+    margin: 1em;
+}
+.web img{
+    max-width: 100%;
+}
+.bor-to1x{
+    border: none;
+    border-top: solid 1px;
+}
+.contacto{
+    text-align: center;
+    vertical-align:top;
+}
+.nombre{
+    text-align: center;
+    color: white;
+
+}
+.foto{
+    padding: 10% 20% 1% ;
+}
+.foto>img{
+    text-align: center;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.botones>a{
+    text-decoration: none;
+    display:inline-block;
+    width: 48%; 
+    border: 1px solid #0099cc;
+    height: 2.2em;
+    padding:0.5%;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #0099cc;
+    text-align: center;
+    margin-top: 1%;
+    line-height: 2em;
+    border-radius: 1em;
+    transition: 0.5s;
+}
+.botones>a:hover{
+    background:  #0099cc;
+    color: white;
+}
+.redes{
+    text-align: center;
+    padding: 10% 0 10%;
+
+}
+.redes>a{
+    width: 2em;
+    cursor: pointer;
+
+}
+.redes>a>img{
+    width: 2em;
+
+}
+.mensaje{
+
+    margin: 0 auto;
+    max-width: 90%;
+}
+.mensaje>input{
+    width: 100%;
+    height: 2.5em;
+    padding-left: 1em;
+}
+.mensaje>textarea{
+    width: 100%;
+    padding-left: 1em;
+}
+.enviar{
+    padding:  2% 10%;
+    border: none;
+    background: #0099cc;
+    cursor: pointer;
+    color: white;
+    font-size: 1.1em;
+   
+}
+footer{
+    text-align: center;
+    padding: 5%;
+}
+@media(max-width:420px){
+    .header{
+        width: 100%;
+        display: inline-block;
+        height: 100%;
+        position: relative;  
+    }
+    body{  
+        overflow: auto;
+    }
+    .seccion{
+        padding:0;
+    }
+    .contacto, .correo{
+    width: 100%
+}
+}
+@media(max-width:800px) and (min-width:421px){
+    .header{
+        width: 12em;  
+    }
+    .seccion{
+        padding-left: 12em;
+    }
+    .botones>a{
+        width:90%;
+    }
+    .contacto, .correo{
+    width: 100%
+}
+}
